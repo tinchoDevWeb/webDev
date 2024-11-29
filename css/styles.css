@@ -22,7 +22,7 @@ a:hover {
     color: #e0cc12d5;
 }
 
-.container{
+.container_main{
     width: 80%;
     margin: auto;
     overflow: hidden;
@@ -56,8 +56,8 @@ li{
 
 main{
     background-color: #fff;
-    padding: 20px;
-    margin-top: 20px;
+    padding: 40px;
+    margin-top: 40px;
 }
 
 footer{
@@ -65,9 +65,13 @@ footer{
     color: #fff;
     text-align: center;
     padding: 10px 0;
-    position: fixed;
     bottom: 0;
     width: 100%;
+}
+
+img {
+    width: 300px;
+    height: 200px;
 }
 
 .footer p{
@@ -87,10 +91,24 @@ footer{
     flex-direction: column;
 }
 
+.text-center {
+    text-align: center;
+}
 
+.contenedor-imagen h1 {
+    margin: 20px;
+}
 
+.contenedor {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
 
-
+.imagenes {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
 
 
 
