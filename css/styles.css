@@ -124,5 +124,30 @@ img {
     color:cornflowerblue;
 }
 
+.contenedor-navegacion {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
 
+.contenedor-navegacion a {
+    display: inline-block;
+    padding: 10px;
+    margin: 10px;
+    font-size: 20px;
+ }
 
+ .navegacion {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 20px;
+    margin-left: 30px;
+    gap: 60px;
+ }
+
+ .contenedor-navegacion h1 {
+    display: flex;
+    flex-direction: row;
+    margin-right: 100px;
+ }
