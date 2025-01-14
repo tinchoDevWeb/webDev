@@ -171,3 +171,37 @@ input {
     height: 30px;
     font-size: 15px;
 }
+
+.contenedor-input button {
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.contenedor-input button:hover {
+    background-color: #90dbf1;
+    color: #333;
+}
+
+.contenedor-input button:active {
+    background-color: #e0cc12d5;
+    color: #333;
+}
+
+.contenedor-input button:focus {
+    outline: none;
+}
+
+.contenedor-input button:visited {
+    color: #333;
+}
+
+.contenedor-input input{
+    border-radius: 10px;
+
+}
+
